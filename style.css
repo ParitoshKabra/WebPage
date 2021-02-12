@@ -17,12 +17,13 @@
 }
 
 #navBar {
-    position: sticky;
+    position: fixed;
     /* border: 2px solid black; */
     display: flex;
     /* flex-flow: row wrap; */
     align-items: center;
-    /* border: 2px solid red; */
+    width: 100%;
+    height: 90px;
 }
 
 #navBar::before {
@@ -33,8 +34,6 @@
     height: 100%;
     z-index: -1;
     opacity: 0.6;
-    top: 0px;
-    left: 0px;
 }
 
 ul {
@@ -109,7 +108,7 @@ ul li a:hover {
 
 .btn {
     display: block;
-    padding: 5px 15px;
+    padding: 5px 35px;
     border-radius: 8px;
     cursor: pointer;
     font-size: 1.8rem;
@@ -173,7 +172,7 @@ ul li a:hover {
     background: url('https://media.istockphoto.com/photos/businessperson-attracting-pawn-figures-with-horseshoe-magnet-picture-id1189508360?b=1&k=6&m=1189508360&s=170667a&w=0&h=2S6CrFhRHv6_38O5sq4JmaqrVZkDU27PpxmF_zoRyv8=') no-repeat center center/cover;
     position: absolute;
     width: 100vw;
-    height: 48vh;
+    height: 55vh;
     z-index: -1;
     opacity: 0.91;
 }
